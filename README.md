@@ -49,12 +49,18 @@ Entre **R$ 60 e R$ 180**, dependendo do que a pessoa já possui.
 
 ## 📘 Documentação
 
-- Checklist oficial → `docs/02-checklist-oficial.md`
-- Guia passo a passo → `docs/03-configuracao-passo-a-passo.md`
-- Versão PDF → `assets/pdf/mobile-to-desktop-kit.pdf`
-- Manifesto → `MANIFESTO.md`
+- [Checklist oficial](./docs/01-visao-geral-do-kit.md) → `docs/02-checklist-oficial.md`
+- [Guia passo a passo](./docs/03-configuracao-passo-a-passo.md) → `docs/03-configuracao-passo-a-passo.md`
+- [Versão PDF](./assets/pdf/mobile-to-desktop-kit.pdf) → `assets/pdf/mobile-to-desktop-kit.pdf`
+- [Manifesto](MANIFESTO.md) → `MANIFESTO.md`
 
 ---
+
+## 📚 Documentação Complementar
+
+- 🛡️ Guia de Sobrevivência: [Primeiros passos após conectar](./docs/guia-sobrevivencia.md)
+- 🚀 Lista de Apps Recomendados para Desktop
+- 💰 Guia de Compras: Como gastar pouco em teclado e mouse
 
 ## 🤝 Contribuições
 
