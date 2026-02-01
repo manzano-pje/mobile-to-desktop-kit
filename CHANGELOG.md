@@ -7,6 +7,13 @@ e o versionamento segue **Semantic Versioning (SemVer)**.
 
 ---
 
+## [1.1.0](https://github.com/robsonamendonca/mobile-to-desktop-kit/compare/v1.0.0...v1.1.0) (2026-02-01)
+
+
+### Features
+
+* cria guia de compras de perifericos de baixo custo ([35e9821](https://github.com/robsonamendonca/mobile-to-desktop-kit/commit/35e9821443fe19738b02718ea8ae6ddd5548e44e))
+
 ## [1.0.0] - 2026-01-31
 
 ### 🎉 Added
