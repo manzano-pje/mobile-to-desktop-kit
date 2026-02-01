@@ -68,6 +68,15 @@ git add .
 git commit -m "docs: melhora instruções de geração de PDF"
 ```
 
+✔️ Commits convencionais (obrigatório)
+
+Exemplos válidos:
+
+feat: adicionar checklist visual
+docs: gerar pdf oficial
+fix: corrigir texto do manifesto
+chore: organizar estrutura
+
 ---
 
 ### 5️⃣ Envie para o Seu Fork

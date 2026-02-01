@@ -70,6 +70,17 @@ git commit -m "docs: melhora instruções de geração de PDF"
 
 ---
 
+✔️ Commits convencionais (obrigatório)
+
+Exemplos válidos:
+
+feat: adicionar checklist visual
+docs: gerar pdf oficial
+fix: corrigir texto do manifesto
+chore: organizar estrutura
+
+📌 Isso é o que aciona o release automático.
+
 ### 5️⃣ Envie para o Seu Fork
 
 ```bash
