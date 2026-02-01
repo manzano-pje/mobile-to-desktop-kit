@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-size: 36px; font-weight: bold; fill: #38bdf8; font-family: Arial, sans-serif; }
+      .label { font-size: 16px; fill: #e5e7eb; font-family: Arial, sans-serif; }
+      .arrow { stroke: #38bdf8; stroke-width: 4; fill: none; marker-end: url(#arrowhead); }
+      .device { stroke: #38bdf8; stroke-width: 2; fill: #020617; border-radius: 8px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#38bdf8" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="550" fill="#0f172a"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" class="title" text-anchor="middle">Arquitetura do Kit</text>
+  
+  <!-- ===== COLUNA ESQUERDA - CELULAR ===== -->
+  <rect x="80" y="120" width="140" height="160" class="device" rx="8"/>
+  <text x="150" y="165" class="label" text-anchor="middle" font-size="32">📱</text>
+  <text x="150" y="200" class="label" text-anchor="middle" font-weight="bold" font-size="18">Celular</text>
+  <text x="150" y="225" class="label" text-anchor="middle" font-size="14">Android 8+</text>
+  <text x="150" y="245" class="label" text-anchor="middle" font-size="13">Processamento</text>
+  <text x="150" y="260" class="label" text-anchor="middle" font-size="12" fill="#10b981">✓ WiFi + BT</text>
+  
+  <!-- Arrow Celular → Espelhamento -->
+  <path d="M 220 180 L 320 180" class="arrow"/>
+  <text x="270" y="170" class="label" font-size="13" text-anchor="middle" fill="#38bdf8" font-weight="bold">WiFi</text>
+  
+  <!-- ===== COLUNA CENTRO - ESPELHAMENTO ===== -->
+  <rect x="320" y="120" width="140" height="160" class="device" rx="8"/>
+  <text x="390" y="165" class="label" text-anchor="middle" font-size="32">🔌</text>
+  <text x="390" y="200" class="label" text-anchor="middle" font-weight="bold" font-size="18">Espelhamento</text>
+  <text x="390" y="225" class="label" text-anchor="middle" font-size="14">Miracast/Cast</text>
+  <text x="390" y="245" class="label" text-anchor="middle" font-size="13">Wireless</text>
+  <text x="390" y="260" class="label" text-anchor="middle" font-size="12" fill="#10b981">✓ 50-200ms</text>
+  
+  <!-- Arrow Espelhamento → Tela -->
+  <path d="M 460 180 L 560 180" class="arrow"/>
+  <text x="510" y="170" class="label" font-size="13" text-anchor="middle" fill="#38bdf8" font-weight="bold">HDMI</text>
+  
+  <!-- ===== COLUNA DIREITA - TELA ===== -->
+  <rect x="560" y="120" width="140" height="160" class="device" rx="8"/>
+  <text x="630" y="165" class="label" text-anchor="middle" font-size="32">📺</text>
+  <text x="630" y="200" class="label" text-anchor="middle" font-weight="bold" font-size="18">Tela</text>
+  <text x="630" y="225" class="label" text-anchor="middle" font-size="14">Smart TV</text>
+  <text x="630" y="245" class="label" text-anchor="middle" font-size="13">Monitor + TV Box</text>
+  <text x="630" y="260" class="label" text-anchor="middle" font-size="12" fill="#10b981">✓ Exibição</text>
+  
+  <!-- ===== ENTRADA (TECLADO + MOUSE) ===== -->
+  <!-- Teclado (esquerda) -->
+  <rect x="50" y="360" width="130" height="100" class="device" rx="8"/>
+  <text x="115" y="390" class="label" text-anchor="middle" font-size="28">⌨️</text>
+  <text x="115" y="420" class="label" text-anchor="middle" font-weight="bold" font-size="14">Teclado</text>
+  <text x="115" y="440" class="label" text-anchor="middle" font-size="12">Bluetooth</text>
+  
+  <!-- Mouse (centro) -->
+  <rect x="265" y="360" width="130" height="100" class="device" rx="8"/>
+  <text x="330" y="390" class="label" text-anchor="middle" font-size="28">🖱️</text>
+  <text x="330" y="420" class="label" text-anchor="middle" font-weight="bold" font-size="14">Mouse</text>
+  <text x="330" y="440" class="label" text-anchor="middle" font-size="12">Wireless</text>
+  
+  <!-- Conexões Bluetooth -->
+  <!-- Teclado ao Celular -->
+  <path d="M 115 360 L 115 300 L 150 280" class="arrow" stroke-dasharray="5,5"/>
+  <text x="90" y="330" class="label" font-size="11" fill="#764ba2">BT</text>
+  
+  <!-- Mouse ao Celular -->
+  <path d="M 330 360 L 330 300 L 150 280" class="arrow" stroke-dasharray="5,5"/>
+  <text x="280" y="330" class="label" font-size="11" fill="#764ba2">BT</text>
+  
+  <!-- Label Entrada -->
+  <text x="115" y="515" class="label" text-anchor="middle" font-weight="bold" font-size="15">⬆️ Camada de Entrada</text>
+  
+  <!-- ===== INFO BOXES ===== -->
+  <!-- Box 1: Fluxo Principal -->
+  <rect x="720" y="120" width="420" height="80" fill="#38bdf8" opacity="0.15" rx="8" stroke="#38bdf8" stroke-width="2"/>
+  <text x="930" y="145" class="label" text-anchor="middle" font-weight="bold" font-size="14">Fluxo de Dados</text>
+  <text x="930" y="165" class="label" text-anchor="middle" font-size="13">Celular → WiFi → Espelhamento → HDMI → Tela</text>
+  <text x="930" y="185" class="label" text-anchor="middle" font-size="12" fill="#10b981">Exibição em tempo real</text>
+  
+  <!-- Box 2: Entrada de Dados -->
+  <rect x="720" y="220" width="420" height="80" fill="#764ba2" opacity="0.15" rx="8" stroke="#764ba2" stroke-width="2"/>
+  <text x="930" y="245" class="label" text-anchor="middle" font-weight="bold" font-size="14">Entrada de Dados</text>
+  <text x="930" y="265" class="label" text-anchor="middle" font-size="13">Teclado/Mouse → Bluetooth → Celular</text>
+  <text x="930" y="285" class="label" text-anchor="middle" font-size="12" fill="#10b981">Conexão wireless bidirecional</text>
+  
+  <!-- Box 3: Resultado -->
+  <rect x="720" y="320" width="420" height="80" fill="#10b981" opacity="0.15" rx="8" stroke="#10b981" stroke-width="2"/>
+  <text x="930" y="345" class="label" text-anchor="middle" font-weight="bold" font-size="14">Resultado Final</text>
+  <text x="930" y="365" class="label" text-anchor="middle" font-size="13">Celular = Computador completo com tela grande</text>
+  <text x="930" y="385" class="label" text-anchor="middle" font-size="12" fill="#10b981">Produtividade total com teclado + mouse</text>
+  
+  <!-- ===== RODAPÉ ===== -->
+  <rect x="30" y="480" width="1140" height="50" fill="#38bdf8" opacity="0.1" rx="4" stroke="#38bdf8" stroke-width="1"/>
+  <text x="600" y="505" class="label" text-anchor="middle" font-weight="bold" font-size="14">Sistema Integrado: Todas as camadas trabalham juntas via Wireless (WiFi + Bluetooth)</text>
+  <text x="600" y="523" class="label" text-anchor="middle" font-size="12">Zero cabos especiais | 100% compatível | Totalmente acessível</text>
+</svg>

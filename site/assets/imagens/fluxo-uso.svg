@@ -1,0 +1,86 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-size: 32px; font-weight: bold; fill: #38bdf8; font-family: Arial, sans-serif; }
+      .step-num { font-size: 24px; font-weight: bold; fill: #020617; font-family: Arial, sans-serif; }
+      .step-label { font-size: 14px; fill: #e5e7eb; font-family: Arial, sans-serif; }
+      .step-desc { font-size: 12px; fill: #94a3b8; font-family: Arial, sans-serif; }
+      .step-circle { stroke: #38bdf8; stroke-width: 2; fill: #10b981; }
+      .arrow-line { stroke: #38bdf8; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .box { stroke: #38bdf8; stroke-width: 2; fill: #020617; border-radius: 8px; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#38bdf8" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="#0f172a"/>
+  
+  <!-- Title -->
+  <text x="450" y="45" class="title" text-anchor="middle">Fluxo de Uso - Passo a Passo</text>
+  
+  <!-- Row 1 -->
+  <!-- Step 1 -->
+  <circle cx="100" cy="120" r="45" class="step-circle"/>
+  <text x="100" y="135" class="step-num" text-anchor="middle">1</text>
+  <text x="100" y="190" class="step-label" text-anchor="middle" font-weight="bold">Pareamento</text>
+  <text x="100" y="210" class="step-desc" text-anchor="middle">Teclado + Mouse</text>
+  <text x="100" y="225" class="step-desc" text-anchor="middle">Bluetooth</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 150 120 L 230 120" class="arrow-line"/>
+  
+  <!-- Step 2 -->
+  <circle cx="300" cy="120" r="45" class="step-circle"/>
+  <text x="300" y="135" class="step-num" text-anchor="middle">2</text>
+  <text x="300" y="190" class="step-label" text-anchor="middle" font-weight="bold">Espelhamento</text>
+  <text x="300" y="210" class="step-desc" text-anchor="middle">Ativar no celular</text>
+  <text x="300" y="225" class="step-desc" text-anchor="middle">Selecionar tela</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 350 120 L 430 120" class="arrow-line"/>
+  
+  <!-- Step 3 -->
+  <circle cx="500" cy="120" r="45" class="step-circle"/>
+  <text x="500" y="135" class="step-num" text-anchor="middle">3</text>
+  <text x="500" y="190" class="step-label" text-anchor="middle" font-weight="bold">Conexão</text>
+  <text x="500" y="210" class="step-desc" text-anchor="middle">TV/Monitor ligados</text>
+  <text x="500" y="225" class="step-desc" text-anchor="middle">Espelhamento ativo</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M 550 120 L 630 120" class="arrow-line"/>
+  
+  <!-- Step 4 -->
+  <circle cx="700" cy="120" r="45" class="step-circle"/>
+  <text x="700" y="135" class="step-num" text-anchor="middle">4</text>
+  <text x="700" y="190" class="step-label" text-anchor="middle" font-weight="bold">Launcher</text>
+  <text x="700" y="210" class="step-desc" text-anchor="middle">Instalar app</text>
+  <text x="700" y="225" class="step-desc" text-anchor="middle">Modo desktop</text>
+  
+  <!-- Arrow 4 -->
+  <path d="M 750 120 L 830 120" class="arrow-line"/>
+  
+  <!-- Step 5 -->
+  <circle cx="800" cy="250" r="45" class="step-circle"/>
+  <text x="800" y="265" class="step-num" text-anchor="middle">5</text>
+  <text x="800" y="320" class="step-label" text-anchor="middle" font-weight="bold">Ajustes</text>
+  <text x="800" y="340" class="step-desc" text-anchor="middle">Tela cheia</text>
+  <text x="800" y="355" class="step-desc" text-anchor="middle">Rotação</text>
+  
+  <!-- Arrow 5 -->
+  <path d="M 760 290 L 680 350" class="arrow-line"/>
+  
+  <!-- Step 6 -->
+  <circle cx="600" cy="380" r="45" class="step-circle"/>
+  <text x="600" y="395" class="step-num" text-anchor="middle">6</text>
+  <text x="600" y="450" class="step-label" text-anchor="middle" font-weight="bold">Uso Normal</text>
+  <text x="600" y="470" class="step-desc" text-anchor="middle">Navegação, apps</text>
+  <text x="600" y="485" class="step-desc" text-anchor="middle">Produtividade</text>
+  
+  <!-- Status Box -->
+  <rect x="100" y="500" width="700" height="80" class="box" rx="8"/>
+  <text x="450" y="530" class="title" text-anchor="middle" font-size="20">✓ Sistema Pronto!</text>
+  <text x="450" y="560" class="step-label" text-anchor="middle">Seu celular agora funciona como computador</text>
+  <text x="450" y="575" class="step-desc" text-anchor="middle">Use teclado + mouse normalmente | Tela espelhada em tempo real | WiFi estável</text>
+</svg>
